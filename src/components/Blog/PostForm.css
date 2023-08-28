@@ -1,0 +1,50 @@
+.post-form {
+    width: 50rem;
+    max-width: 100%;
+    margin: 7%;
+  }
+  
+  .form-control label,
+  .form-control input {
+    display: block;
+
+  }
+  .form-control label{
+    font-weight: bold;
+  }
+  
+  .form-control input {
+    font: inherit;
+    padding: 0.1rem 0.25rem;
+ 
+    margin-bottom: 1rem;
+  }
+  .form-control textarea {
+    font: inherit;
+    padding: 1rem 0.25rem;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .form-control input:focus {
+    outline: none;
+    border-bottom-color: #ff2058;
+  }
+  .form-control textarea:focus {
+    outline: none;
+    border-bottom-color: #ff2058;
+  }
+  
+  .post-button{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.8rem 3rem;
+    border-radius: 5rem;
+    background:var(--gradient);
+    font-size: 1.5rem;
+    color:#fff;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+
+  }

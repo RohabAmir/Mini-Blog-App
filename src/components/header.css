@@ -1,0 +1,43 @@
+:root{
+    --purple:#814096;
+    --pink:#F83292;
+    --gradient:linear-gradient(90deg, var(--purple), var(--pink));
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:var(--gradient) ;
+    height: 60px;
+    padding: 40px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: px;
+    gap: 15px;
+    color: white;
+
+}
+
+.logo{
+    color: white;
+}
+.menu .menu-btn{
+    background-color: var(--pink);
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.menu .menu-btn:hover{
+    background-color: white;
+}

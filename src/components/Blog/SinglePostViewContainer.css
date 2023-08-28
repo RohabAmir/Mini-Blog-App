@@ -1,0 +1,19 @@
+.single-post-view{
+    margin:  7% ;
+    padding: 10% 5%;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background: linear-gradient(to bottom,  #074a61 10% , #2ad8b2 100%);
+    color: white;
+  }
+.edit-post{
+    margin: auto ;
+    padding: 10% 5%;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background: linear-gradient(to bottom,  #074a61 10% , #2ad8b2 100%);
+    color: white;
+
+}
